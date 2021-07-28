@@ -163,26 +163,21 @@ p {
 /* Mobile  */
 
 @media (max-width:650px){
-  body{
-    padding: 0;
-  }
 
   p,em {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
   }
 
   /* Heading */
 
-  h3{
-    font-size:2rem;
-  }
   .big-heading {
-    font-size: 3.5rem;
+    font-size: 2.3rem;
     margin-top: 6%;
   }
 
   .section-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding-top: 0;
     line-height: 1.5;
   }
 
@@ -193,7 +188,7 @@ p {
   /* Navigation Bar */
 
   .navbar-brand {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   .navbar {
@@ -203,44 +198,44 @@ p {
 
   .nav-item {
     padding: 0 ;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   .navbar-toggler{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   /* Download Button */
 
   .download-btn{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   /* Title Image */
   .title-img{
-    width: 50%;
+    width: 45%;
     margin-top: 5%;
   }
 
   /* Icon */
   .icon{
-    font-size: 6.5rem;
+    font-size: 4rem;
   }
 
   /* Features */
 
   .feature-title{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   /* Testimonial */
 
   .testimonial-text{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .testimonial-image {
-    width: 20%;
+    width: 18%;
     border-radius: 100%;
     margin: 1.2rem;
   }
@@ -251,10 +246,19 @@ p {
     width:24%;
   }
 
+/* Pricing */
+
+  #pricing{
+    padding: 3.5rem;
+  }
   .price-button{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
+  .pricing-heading{
+    width:100%;
+    padding: 0;
+  }
   /* Footer */
   .footer-icons{
     font-size: 1.2rem;
