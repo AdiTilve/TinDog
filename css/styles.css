@@ -31,7 +31,7 @@ p {
 }
 
 .container-fluid {
-    padding: 7% 15%;
+  padding: 2% 15%;
 }
 
 /* Navigation bar */
@@ -69,7 +69,7 @@ p {
   background-color: #fff;
 }
 
-.feature-title{
+.feature-title {
   font-size: 1.5rem;
 }
 
@@ -89,7 +89,8 @@ p {
 
 /* testimonial section */
 #testimonials {
-  background-color: #ef8172;
+  /* background-color: #ef8172; */
+  background-color: #ff4c68;
   color: #fff;
 }
 
@@ -110,7 +111,8 @@ p {
 
 #press {
   padding-bottom: 3%;
-  background-color: #ef8172;
+  /* background-color: #ef8172; */
+  background-color: #ff4c68;
 }
 
 /* Pricing */
@@ -138,9 +140,26 @@ p {
   color: #fff;
 }
 
+/* Contact */
+#contact{
+  padding: 5% 30%;
+}
+
+.contact-form{
+  border:1px solid black;
+  padding: 6% 25%;
+  text-align: left;
+  background-color: #00000008;
+}
+
 #footer {
-  background-color: #fff;
+  background-color: #ff4c68;
   padding: 3% 15%;
+  color: #fff;
+}
+
+.copyright-text{
+color: #fff;
 }
 
 .footer-icons {
@@ -149,27 +168,124 @@ p {
 }
 
 @media (max-width:1030px) {
-  #title {
-    text-align: center;
+  p, em {
+    font-size: 1.2rem;
   }
 
+  /* Heading */
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+  }
+
+  .container-fluid {
+    padding: 3% 9%;
+  }
+
+  /* Navigation Bar*/
+  .navbar-brand {
+    font-size: 3.3rem;
+  }
+
+  .navbar {
+    padding-bottom: 6%;
+    text-align: right;
+  }
+
+  .nav-item {
+    padding: 0 2%;
+    font-size: 1.5rem;
+  }
+
+  /* Title Image */
   .title-img {
     transform: rotate(0);
     position: static;
-    width: 40%;
+    width: 50%;
+    margin-left: 30%;
+  }
+
+  /* Download Button */
+  .download-btn {
+    font-size: 1.6rem;
+  }
+
+  /* Features */
+  #features {
+    padding: 5% 5%;
+  }
+
+  .feature-title {
+    font-size: 2.2rem;
+  }
+
+  /* Icon */
+  .icon {
+    font-size: 4.5rem;
+  }
+
+  /* Testimonial */
+  .testimonial-text {
+    font-size: 3rem;
+  }
+
+  .testimonial-image {
+    width: 13%;
+    border-radius: 100%;
+    margin: 1.2rem;
+  }
+
+  /* Press */
+  .press-logo {
+    width: 24%;
+  }
+
+  /* Pricing */
+  #pricing {
+    padding: 9% 5%;
+  }
+
+  .price-button {
+    font-size: 1.3rem;
+  }
+
+  .pricing-heading {
+    width: 100%;
+  }
+
+  /* Call To Action */
+  #cta{
+    padding:5% 9%;
+  }
+
+  /* Contact */
+  #contact{
+    padding: 5% 30%;
+    /* font-size: 1.5rem; */
+  }
+
+  .contact-form{
+    border:1px solid black;
+    padding: 6% 25%;
+    text-align: left;
+  }
+  /* Footer */
+  .footer-icons {
+    font-size: 1.2rem;
+    margin-left: 2%;
   }
 }
 
 /* Mobile  */
-
-@media (max-width:650px){
-
-  p,em {
+@media (max-width:650px) {
+  p, em {
     font-size: 0.9rem;
   }
 
   /* Heading */
-
   .big-heading {
     font-size: 2.3rem;
     margin-top: 6%;
@@ -178,59 +294,52 @@ p {
   .section-heading {
     font-size: 2.5rem;
     padding-top: 0;
-    line-height: 1.5;
   }
 
-  .container-fluid{
+  .container-fluid {
     padding: 3% 4%;
   }
 
   /* Navigation Bar */
-
   .navbar-brand {
     font-size: 2.5rem;
   }
 
   .navbar {
-    padding: 0;
     text-align: right;
   }
 
   .nav-item {
-    padding: 0 ;
     font-size: 1.2rem;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     font-size: 1.5rem;
   }
 
   /* Download Button */
-
-  .download-btn{
+  .download-btn {
     font-size: 1.2rem;
   }
 
   /* Title Image */
-  .title-img{
+  .title-img {
     width: 45%;
     margin-top: 5%;
   }
 
   /* Icon */
-  .icon{
+  .icon {
     font-size: 4rem;
   }
 
   /* Features */
-
-  .feature-title{
+  .feature-title {
     font-size: 1.4rem;
   }
 
   /* Testimonial */
-
-  .testimonial-text{
+  .testimonial-text {
     font-size: 2rem;
   }
 
@@ -241,26 +350,36 @@ p {
   }
 
   /* Press */
-
-  .press-logo{
-    width:24%;
+  .press-logo {
+    width: 24%;
   }
 
-/* Pricing */
-
-  #pricing{
+  /* Pricing */
+  #pricing {
     padding: 3.5rem;
   }
-  .price-button{
+
+  .price-button {
     font-size: 1.1rem;
   }
 
-  .pricing-heading{
-    width:100%;
-    padding: 0;
+  .pricing-heading {
+    width: 100%;
+  }
+
+  /* Contact */
+  #contact{
+    padding: 5% 15%;
+  }
+
+  .contact-form{
+    border:1px solid black;
+    padding: 6% 15%;
+    text-align: left;
+    background-color: #00000008;
   }
   /* Footer */
-  .footer-icons{
+  .footer-icons {
     font-size: 1.2rem;
     margin-left: 5%;
   }
