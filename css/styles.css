@@ -263,13 +263,12 @@ color: #fff;
 
   /* Contact */
   #contact{
-    padding: 5% 30%;
-    /* font-size: 1.5rem; */
+    padding: 5% 25%;
   }
 
   .contact-form{
     border:1px solid black;
-    padding: 6% 25%;
+    padding: 6% 15%;
     text-align: left;
   }
   /* Footer */
